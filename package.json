@@ -1,0 +1,38 @@
+{
+  "name": "presenter-extension-pack",
+  "displayName": "Presenter Extension Pack",
+  "description": "This is an extension pack for Visual Studio Code with some extensions that are helpful for a presenter",
+  "version": "1.0.0",
+  "publisher": "magnobiet",
+  "engines": {
+    "vscode": "^1.38.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "johnpapa.vscode-cloak",
+    "marp-team.marp-vscode",
+    "hoovercj.vscode-dimmer",
+    "github.github-vscode-theme"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#f5f5f6",
+    "theme": "light"
+  },
+  "scripts": {
+    "package": "npx vsce package",
+    "publish": "npx vsce publish"
+  },
+  "author": "Magno Biét <magno.biet@gmail.com> (https://magnobiet.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vscode-extension-packs/presenter-extension-pack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vscode-extension-packs/presenter-extension-pack/issues"
+  },
+  "homepage": "https://github.com/vscode-extension-packs/presenter-extension-pack#readme"
+}
