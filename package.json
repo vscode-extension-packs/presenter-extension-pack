@@ -2,7 +2,7 @@
   "name": "presenter-extension-pack",
   "displayName": "Presenter Extension Pack",
   "description": "This is an extension pack for Visual Studio Code with some extensions that are helpful for a presenter",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "publisher": "magnobiet",
   "engines": {
     "vscode": "^1.38.0"
@@ -14,7 +14,8 @@
     "johnpapa.vscode-cloak",
     "marp-team.marp-vscode",
     "hoovercj.vscode-dimmer",
-    "github.github-vscode-theme"
+    "github.github-vscode-theme",
+    "devonray.snippet"
   ],
   "icon": "icon.png",
   "galleryBanner": {
